@@ -14,8 +14,11 @@ class CMT(object):
 
 	DETECTOR = 'BRISK'
 	DESCRIPTOR = 'BRISK'
+	#DESCRIPTOR = 'SIFT'
 	DESC_LENGTH = 512
+	#MATCHER = 'BruteForce-L1'
 	MATCHER = 'BruteForce-Hamming'
+	#MATCHER = 'BruteForce-Hamming'
 	THR_OUTLIER = 20
 	THR_CONF = 0.75
 	THR_RATIO = 0.8

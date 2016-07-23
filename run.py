@@ -176,7 +176,6 @@ else:
 
 		# Draw updated estimate
 		if CMT.has_result:
-
 			cv2.line(im_draw, CMT.tl, CMT.tr, (255, 0, 0), 4)
 			cv2.line(im_draw, CMT.tr, CMT.br, (255, 0, 0), 4)
 			cv2.line(im_draw, CMT.br, CMT.bl, (255, 0, 0), 4)
